@@ -12,7 +12,7 @@ The key highlights are as follows:
 •	Transforming - numerical variables that are categorical
 •	Label Encoding
 •	Scaling (using RobustScaler) along with Pipelines
-•	Box Cox Transformation of skewed features (instead of log-transformation) : This gave me a slightly better result both on leaderboard and cross-validation.
+•	Box Cox Transformation of skewed features 
 •	np.log1p transformation
 •	Getting dummy variables for categorical features.
 4.	Feature Importance/Selection
