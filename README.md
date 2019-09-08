@@ -11,50 +11,50 @@ The key highlights are as follows:
 
 3.	Feature Engineering
 
-  •	Imputing missing values by proceeding sequentially through the data
+      •	Imputing missing values by proceeding sequentially through the data
 
-  •	Transforming - numerical variables that are categorical
+      •	Transforming - numerical variables that are categorical
 
-  •	Label Encoding
+      •	Label Encoding
 
-  •	Scaling (using RobustScaler) along with Pipelines
+      •	Scaling (using RobustScaler) along with Pipelines
 
-  •	Box Cox Transformation of skewed features 
+      •	Box Cox Transformation of skewed features 
 
-  •	np.log1p transformation
+      •	np.log1p transformation
 
-  •	Getting dummy variables for categorical features.
+      •	Getting dummy variables for categorical features.
 
 
 4.	Feature Importance/Selection
 
-  •	Lasso Regression
+      •	Lasso Regression
 
-  •	Select k best
+      •	Select k best
 
-  •	feature_importances_ using Decision Trees
+      •	feature_importances_ using Decision Trees
 
 
 5.	Splitting Data
   
-  •	Train test split 
+      •	Train test split 
 
-  •	Grid search CV
+      •	Grid search CV
 
 
 6.	Regression Models Used (Care was taken to ensure no chances of Overfitting)
 
-  •	Lasso Regression - RMSE =  0.11; R squared =  0.91
+      •	Lasso Regression - RMSE =  0.11; R squared =  0.91
 
-  •	Ridge Regression - RMSE =  0.11; R squared =  0.91
+      •	Ridge Regression - RMSE =  0.11; R squared =  0.91
 
-  •	Decision Trees - RMSE =  0.18; R squared =  0.78
+      •	Decision Trees - RMSE =  0.18; R squared =  0.78
 
-  •	Random Forest - RMSE =  0.14; R squared =  0.87
+      •	Random Forest - RMSE =  0.14; R squared =  0.87
 
-  •	Gradient boost - RMSE =  0.11; R squared =  0.91
+      •	Gradient boost - RMSE =  0.11; R squared =  0.91
 
-  •	Adaboost - RMSE =  0.13; R squared =  0.88
+      •	Adaboost - RMSE =  0.13; R squared =  0.88
 
 
 7.	Hyper-Parameter Tuning of all models
@@ -62,9 +62,9 @@ The key highlights are as follows:
 
 8.	Analyse Model performance
 
-  •	RMSE
+      •	RMSE
 
-  •	R squares
+      •	R squares
 
 
 9.	Finally predicting the Label of Test data using Gradient Boosting Regressor
